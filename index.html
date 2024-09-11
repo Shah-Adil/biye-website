@@ -1,0 +1,903 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- pop font  -->
+    <link rel="stylesheet" href="font/pop-font.css" />
+    <!-- asap font  -->
+    <link href="font/asap-font.css" rel="stylesheet" />
+    <!-- css link  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="icon/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- preloader  -->
+    <div class="preloader">
+      <img src="icon/loader.gif" alt="loader" />
+    </div>
+
+    <!-- preloader end -->
+
+    <!-- ================== video modal ========================== -->
+
+    <div class="video-modal">
+      <div class="video-modal-box">
+        <i class="fa-solid fa-xmark"></i>
+        <iframe
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- ================== video modal end ========================== -->
+
+    <!-- ======================== header ================================ -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1>
+            <img src="img/logo.png" alt="logo" />
+            <img src="img/logo-dark.png" alt="logo-dark" />
+          </h1>
+
+          <div class="nav-bar">
+            <ul class="nav">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="plan.html">Our Plan </a></li>
+              <li><a href="client.html">Happy Client</a></li>
+              <li><a href="about.html">About Us </a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <ul class="account-nav">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="createAccount.html">Register</a></li>
+            </ul>
+          </div>
+
+          <div class="fa-solid fa-bars-staggered fa-fw" id="menu-btn"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================== header end  ================================ -->
+
+    <!-- ====================== hero section =========================== -->
+
+    <main class="hero-section" style="background: url('./img/banner.png')">
+      <div class="container">
+        <div class="hero-section-content">
+          <h2>Find Your Perfect Life Partner And Create Your Haven Life</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul class="d-flex gap-4 align-items-center">
+            <li>
+              <a href="createAccount.html" class="main-btn"
+                >Add Your Bio Data</a
+              >
+            </li>
+            <li
+              class="d-flex gap-2 align-items-center video-play-btn"
+              data-video="https://www.youtube.com/embed/BurUdz-6DS4?si=JKW5GrKUM6uJJHfc"
+            >
+              <i class="fa-solid fa-play"></i> <u>How To Create Bio Data</u>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- ====================== hero section emd =========================== -->
+
+    <!--========================== find form ==============================  -->
+
+    <section class="find-form">
+      <div class="container">
+        <div class="find-form-content">
+          <div class="find-form-input">
+            <i class="fa-solid fa-venus-mars"></i>
+            <select name="gender">
+              <option value="gender">Gender</option>
+              <option value="male">male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-regular fa-calendar-days"></i>
+            <select name="">
+              <option value="age">Age</option>
+              <option value="18">18</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-star-and-crescent"></i>
+            <select name="">
+              <option value="age">Religion</option>
+              <option value="18">Religion</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-location-dot"></i>
+            <select name="">
+              <option value="age">Location</option>
+              <option value="18">Location</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-heart"></i>
+            <select name="">
+              <option value="age">Marital Status</option>
+              <option value="18">Marital Status</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-plane-departure"></i>
+            <select name="">
+              <option value="age">Foreigner</option>
+              <option value="18">Foreigner</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-user-graduate"></i>
+            <select name="">
+              <option value="age">Education</option>
+              <option value="18">Education</option>
+            </select>
+          </div>
+          <div class="find-form-input">
+            <i class="fa-solid fa-briefcase"></i>
+            <select name="">
+              <option value="age">Profusion</option>
+              <option value="18">Profusion</option>
+            </select>
+          </div>
+
+          <div class="submit-form">
+            <button type="submit" class="main-btn">Find Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========================== find form  end ==============================  -->
+
+    <!-- ========================== home bio ===================================== -->
+
+    <section class="home-bio">
+      <div class="container">
+        <div class="section-header">
+          <h2>Most Recent Bio Data</h2>
+        </div>
+
+        <div class="home-bio-content grid-5">
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-bio-box">
+            <div class="home-bio-box-img">
+              <img src="img/form.png" alt="img" />
+            </div>
+            <div class="home-bio-box-text">
+              <h4>Shakib Khan</h4>
+              <ul>
+                <li><span>Age</span>:<span>24 </span></li>
+                <li><span>Religion</span>:<span>islam</span></li>
+
+                <li><span>Height</span>:<span>5.2</span></li>
+                <li><span>Statas</span>:<span>Teacher</span></li>
+              </ul>
+
+              <a href="profile-page.html"
+                >View Details <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== home bio end ===================================== -->
+
+    <!-- ========================= home about ======================= -->
+
+    <section class="home-about">
+      <div class="container">
+        <div class="home-about-content grid-2">
+          <div class="home-about-content-left">
+            <h2>About Us</h2>
+            <h3>
+              Sylhet Bie-Shaadi.com is Sylhet's first digital marriage media.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident ,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="about.html" class="main-btn">More About</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="home-about-content-right">
+            <img src="img/Group 424.png" alt="img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================= home about end ======================= -->
+
+    <!-- ============================== home work =================== -->
+
+    <section class="home-work">
+      <div class="container">
+        <div class="home-work-content grid-2">
+          <div class="home-work-img">
+            <img src="img/img1.png" alt="img" />
+          </div>
+          <div class="home-work-text">
+            <h3>
+              This is how Sylheti Biye Shadi<span class="main-color">.com</span>
+              works
+            </h3>
+            <ul>
+              <li>
+                <div class="home-work-icon">
+                  <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <div class="home-work-text">
+                  <h5>Create a resume</h5>
+                  <p>
+                    You can easily create free Syleti
+                    <strong>biya shaadi.com</strong> Biodata.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="home-work-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="home-work-text">
+                  <h5>Find Bio Data</h5>
+                  <p>
+                    You can easily search biodata using many filters including
+                    age, upazila, profession, educational qualification.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="home-work-icon">
+                  <i class="fa-solid fa-heart-crack"></i>
+                </div>
+                <div class="home-work-text">
+                  <h5>Consummate The Marriage</h5>
+                  <p>
+                    If you like the biodata and talk, do a thorough search at
+                    your own risk and complete the Sunnati marriage.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== home work end =================== -->
+
+    <!-- ====================== home review ========================= -->
+
+    <section class="home-review">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2 class="mb-2">Our Client Review</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitatio.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="home-review-box">
+            <div
+              class="home-review-box-img video-play-btn"
+              data-video="https://www.youtube.com/embed/Tk77K1sj-Rc?si=-ZmXoghGRbWa2-Ls"
+            >
+              <i class="fa-solid fa-play"></i>
+              <img src="img/Rectangle 20.png" alt="img" />
+            </div>
+            <div class="home-review-box-text">
+              <div class="home-review-profile">
+                <img src="img/Rectangle 20.png" alt="img" />
+                <div>
+                  <h5>Mhammad Ikbal</h5>
+                  <small>20-01-2024</small>
+                </div>
+              </div>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="client.html" class="main-btn">See All Review</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== home review end ========================= -->
+
+    <!-- ==================== home blog ================================ -->
+
+    <section class="home-blog">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Blog</h2>
+        </div>
+
+        <div class="home-blog-single grid-2">
+          <div class="home-blog-single-img">
+            <img src="img/Rectangle 20.png" alt="image" />
+          </div>
+          <div class="home-blog-single-text">
+            <h3>
+              Lorem ipsum is placeholder text commonly used in the Consent.
+            </h3>
+            <ul>
+              <li>
+                <i class="fa-regular fa-clock"></i> <span>21-01-2024</span>
+              </li>
+              <li><i class="fa-regular fa-user"></i> <span>Marriage</span></li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+            <a href="#">View Details <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="home-blog-box">
+            <div class="home-blog-single-img">
+              <img src="img/Rectangle 20.png" alt="image" />
+            </div>
+            <div class="home-blog-single-text">
+              <h3>
+                Lorem ipsum is placeholder text commonly used in the Consent.
+              </h3>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-clock"></i> <span>21-01-2024</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-user"></i> <span>Marriage</span>
+                </li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <a href="#"
+                >View Details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-blog-box">
+            <div class="home-blog-single-img">
+              <img src="img/Rectangle 20.png" alt="image" />
+            </div>
+            <div class="home-blog-single-text">
+              <h3>
+                Lorem ipsum is placeholder text commonly used in the Consent.
+              </h3>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-clock"></i> <span>21-01-2024</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-user"></i> <span>Marriage</span>
+                </li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <a href="#"
+                >View Details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="home-blog-box">
+            <div class="home-blog-single-img">
+              <img src="img/Rectangle 20.png" alt="image" />
+            </div>
+            <div class="home-blog-single-text">
+              <h3>
+                Lorem ipsum is placeholder text commonly used in the Consent.
+              </h3>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-clock"></i> <span>21-01-2024</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-user"></i> <span>Marriage</span>
+                </li>
+              </ul>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <a href="#"
+                >View Details <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-5 btn-center">
+          <a href="blog.html" class="main-btn">See All Blog</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== home blog end ================================ -->
+
+    <!-- ===================== home create = ============================= -->
+
+    <section
+      class="home-create"
+      style="
+        background: linear-gradient(#ff578715, #d400ff2c),
+          url('./img/form2.png');
+      "
+    >
+      <div class="container">
+        <div class="home-create-content bg-blur">
+          <h3>Contact Us</h3>
+          <div class="form-grid-2">
+            <div class="main-input">
+              <input type="text" name="name" placeholder="Enter Your Name*" />
+            </div>
+
+            <div class="main-input">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email*"
+              />
+            </div>
+            <div class="main-input">
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Phone Number*"
+              />
+            </div>
+
+            <div class="main-input">
+              <select name="" id="">
+                <option value="1">Select Your Gender</option>
+                <option value="male">male</option>
+                <option value="male">female</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="main-input mt-4 mb-4">
+            <textarea
+              name="message"
+              placeholder="Enter Your Message "
+            ></textarea>
+          </div>
+
+          <button type="submit" class="px-5">Contact</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== home create end  = ============================= -->
+
+    <!-- ======================== footer ==================================== -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-content-left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.025838138165!2d91.81983561384499!3d24.900058347511834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2sSylhet!5e0!3m2!1sen!2sbd!4v1705297870069!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="footer-content-right">
+            <form action="/" method="post">
+              <div class="main-input">
+                <input
+                  type="text"
+                  name="form"
+                  id="fomr"
+                  placeholder="Enter Your Email"
+                />
+                <button type="submit" class="main-btn">Subscribe Now</button>
+              </div>
+            </form>
+
+            <div class="grid-3">
+              <ul>
+                <h4>Quick Link</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Our Plan</a></li>
+                <li><a href="#">Happy Client</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+              <ul>
+                <h4>Support</h4>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Registration</a></li>
+              </ul>
+              <ul>
+                <h4>About us</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Happy Client</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <h6>
+          Copyright © 2024. All rights reserved. | Develop by
+          <a href="#">Opstel IT</a>
+        </h6>
+      </div>
+    </footer>
+
+    <!-- ======================== footer end ==================================== -->
+
+    <!-- js link js  -->
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- pop font  -->
+    <link rel="stylesheet" href="font/pop-font.css" />
+    <!-- asap font  -->
+    <link href="font/asap-font.css" rel="stylesheet" />
+    <!-- css link  -->
+    <link rel="stylesheet" href="icon/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- preloader  -->
+    <div class="preloader">
+      <img src="icon/loader.gif" alt="loader" />
+    </div>
+
+    <!-- preloader end -->
+
+    <!-- ================== video modal ========================== -->
+
+    <div class="video-modal">
+      <div class="video-modal-box">
+        <i class="fa-solid fa-xmark"></i>
+        <iframe
+          src=""
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- ================== video modal end ========================== -->
+
+    <!-- ======================== header ================================ -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <h1>
+            <img src="img/logo.png" alt="logo" />
+            <img src="img/logo-dark.png" alt="logo-dark" />
+          </h1>
+
+          <div class="nav-bar">
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="plan.html">Our Plan </a></li>
+              <li><a href="client.html">Happy Client</a></li>
+              <li><a href="about.html">About Us </a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <ul class="account-nav">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="createAccount.html">Register</a></li>
+            </ul>
+          </div>
+
+          <div class="fa-solid fa-bars-staggered fa-fw" id="menu-btn"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================== header end  ================================ -->
+
+    <!-- ===================== home create = ============================= -->
+
+    <section
+      class="home-create"
+      style="
+        background: linear-gradient(#ff578715, #d400ff2c),
+          url('./img/form2.png');
+      "
+    >
+      <div class="container mt-5 pt-3">
+        <div class="home-create-content bg-blur">
+          <h3>Contact Us</h3>
+          <div class="form-grid-2">
+            <div class="main-input">
+              <input type="text" name="name" placeholder="Enter Your Name*" />
+            </div>
+
+            <div class="main-input">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email*"
+              />
+            </div>
+            <div class="main-input">
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Phone Number*"
+              />
+            </div>
+
+            <div class="main-input">
+              <select name="" id="">
+                <option value="1">Select Your Gender</option>
+                <option value="male">male</option>
+                <option value="male">female</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="main-input mt-4 mb-4">
+            <textarea
+              name="message"
+              placeholder="Enter Your Message "
+            ></textarea>
+          </div>
+
+          <button type="submit" class="px-5">Contact</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== home create end  = ============================= -->
+
+    <!-- ======================== footer ==================================== -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-content-left">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.025838138165!2d91.81983561384499!3d24.900058347511834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375054d3d270329f%3A0xf58ef93431f67382!2sSylhet!5e0!3m2!1sen!2sbd!4v1705297870069!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="footer-content-right">
+            <form action="/" method="post">
+              <div class="main-input">
+                <input
+                  type="text"
+                  name="form"
+                  id="fomr"
+                  placeholder="Enter Your Email"
+                />
+                <button type="submit" class="main-btn">Subscribe Now</button>
+              </div>
+            </form>
+
+            <div class="grid-3">
+              <ul>
+                <h4>Quick Link</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Our Plan</a></li>
+                <li><a href="#">Happy Client</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+              <ul>
+                <h4>Support</h4>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Registration</a></li>
+              </ul>
+              <ul>
+                <h4>About us</h4>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Happy Client</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <h6>
+          Copyright © 2024. All rights reserved. | Develop by
+          <a href="#">Opstel IT</a>
+        </h6>
+      </div>
+    </footer>
+
+    <!-- ======================== footer end ==================================== -->
+
+    <!-- js link js  -->
+    <script src="js/jq.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
